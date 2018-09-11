@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg:"
+             android:layout_marginLeft="5dip"
+            />
+        <TextView 
+            android:id="@+id/msgwhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg.what"
+            android:textColor="#4B8EF9"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="session:"
+            android:layout_marginLeft="5dip"
+            />
+        <TextView 
+            android:id="@+id/msgarg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg.arg1"
+             android:textColor="#4B8EF9"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="intparam:"
+            android:layout_marginLeft="5dip"
+            />
+        <TextView 
+            android:id="@+id/msgarg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg.arg2"
+             android:textColor="#4B8EF9"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arrayparam:"
+            android:layout_marginLeft="5dip"
+            />
+        <EditText 
+            android:id="@+id/msgobj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg.obj"
+             android:textColor="#4B8EF9"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

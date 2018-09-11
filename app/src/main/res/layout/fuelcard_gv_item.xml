@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fuelcard_gv_bt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_money"
+    android:textColor="#000"
+    android:layout_margin="@dimen/ez10dp"
+    android:checked="false"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+
+    >
+
+</Button>

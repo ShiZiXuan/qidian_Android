@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智慧ETC</string>
+    <string name="illegal_query">保存并查询</string>
+    <string name="illegal_car_number">车牌号码</string>
+    <string name="illegal_query_engine">发动机号</string>
+    <string name="illegal_query_frame">车架号码</string>
+
+    <string name="illegal_query_data_time">违章时间: </string>
+    <string name="illegal_query_data_area">违章路段: </string>
+    <string name="illegal_query_data_action">违章行为: </string>
+    <string name="illegal_query_data_money">罚款情况: </string>
+    <string name="illegal_query_data_fen">扣分情况: </string>
+    <string name="illegal_query_data_handle">处理情况: </string>
+
+    <string name="illegal_query_data_handled">已处理</string>
+    <string name="illegal_query_data_no_handled">未处理</string>
+    <string name="splash_txt">智慧ETC</string>
+
+    <string name="login_tips_empty_phone_number">手机号码不能为空</string>
+    <string name="login_tips_wrong_phone_number">请输入正确的手机号码</string>
+
+    <string name="login_tips_send_code">发送验证码</string>
+    <string name="login_tips_resend_code">秒重发</string>
+
+</resources>

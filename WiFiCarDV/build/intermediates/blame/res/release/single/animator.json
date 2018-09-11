@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\release\\animator\\right_in.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\animator\\right_in.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\release\\animator\\left_in.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\animator\\left_in.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\release\\animator\\right_out.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\animator\\right_out.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\release\\animator\\left_out.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\animator\\left_out.xml"
+    }
+]

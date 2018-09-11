@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+                android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez130dp"
+        android:orientation="vertical"
+        android:background="@drawable/etcb"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez8dp"
+            android:layout_margin="@dimen/ez10dp"
+            android:text="智慧ETC设备费"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/ez10dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez7dp"
+            android:layout_marginTop="@dimen/ez5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/ez100dp"
+                android:layout_height="@dimen/ez75dp"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:src="@drawable/etcshebei"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez20dp"
+                android:layout_marginTop="@dimen/ez10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="智慧ETC设备费"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ez15dp"
+                    android:textColor="@color/red_confirm"
+                    android:text="￥118元"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez2dp"
+        android:background="#ccc"
+        android:layout_marginTop="@dimen/ez20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:layout_marginRight="@dimen/ez20dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应付金额"
+                android:textColor="#000"
+                android:textSize="16sp"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ez0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="￥118元"
+                android:textColor="@color/red_confirm"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez1dp"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:background="#999"
+            android:layout_marginTop="@dimen/ez5dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:layout_marginRight="@dimen/ez20dp"
+            android:layout_marginTop="@dimen/ez10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人:"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/name_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez35dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:hint="请输入收货人姓名"
+                android:textCursorDrawable="@null"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez1dp"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:background="#999"
+            android:layout_marginTop="@dimen/ez10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:layout_marginRight="@dimen/ez20dp"
+            android:layout_marginTop="@dimen/ez10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码:"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/number_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez35dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:hint="请输入联系电话"
+                android:textCursorDrawable="@null"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez1dp"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:background="#999"
+            android:layout_marginTop="@dimen/ez10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:layout_marginRight="@dimen/ez20dp"
+            android:layout_marginTop="@dimen/ez10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择地址:"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/adress_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez35dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:hint="请选择"
+                android:textCursorDrawable="@null"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez1dp"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:background="#999"
+            android:layout_marginTop="@dimen/ez10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:layout_marginRight="@dimen/ez20dp"
+            android:layout_marginTop="@dimen/ez10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="详细地址:"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/xiangxiadress_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez35dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:hint="请输入详细地址"
+                android:textCursorDrawable="@null"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez1dp"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:background="#999"
+            android:layout_marginTop="@dimen/ez10dp"
+            />
+
+    </LinearLayout>
+
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ez2dp"
+    android:background="#ccc"
+    android:layout_marginTop="@dimen/ez25dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/ez10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez5dp"
+
+            android:text="支付方式:"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez15dp"
+            android:layout_marginTop="@dimen/ez8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fuel_wx"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ez10dp"
+                android:text="微信支付"
+                android:textSize="16sp"
+                android:textColor="#000"
+                />
+
+            <View style="@style/view_weight_width"></View>
+
+            <CheckBox
+                android:id="@+id/fuelcard_wxPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/ez10dp"
+                android:background="@drawable/check_selector"
+                android:button="@null"
+                android:checked="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez15dp"
+            android:layout_marginTop="@dimen/ez8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fuel_ali"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ez10dp"
+                android:text="支付宝支付"
+                android:textSize="16sp"
+                android:textColor="#000"
+                />
+
+
+            <View style="@style/view_weight_width"></View>
+
+            <CheckBox
+                android:id="@+id/fuelcard_alipay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/ez10dp"
+                android:background="@drawable/check_selector"
+                android:button="@null"
+                />
+        </LinearLayout>
+
+
+
+
+        <View
+            style="@style/view_gray_lines_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"></View>
+
+        <LinearLayout
+            android:id="@+id/already_had_ll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="已有ETC设备  可跳过购买"
+                android:textColor="@color/black"
+                android:textSize="13sp"/>
+
+            <View style="@style/view_weight_width"></View>
+
+            <CheckBox
+                android:id="@+id/already_had_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/check_selector"
+                android:button="@null"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_gray_lines_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

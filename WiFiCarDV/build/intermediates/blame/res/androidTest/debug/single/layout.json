@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\player_contol_classic.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\player_contol_classic.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\adas_view.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\adas_view.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\viewer_setting.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\viewer_setting.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main_wifi.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main_wifi.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_video_preview.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_video_preview.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ringdialog.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\ringdialog.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\network_configurations.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\network_configurations.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_decor_include.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\photoed_item.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\photoed_item.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\autotest_view.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\autotest_view.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preview_player.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\preview_player.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\whistler_view.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\whistler_view.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\videosurface.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\videosurface.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\image_dialog.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\image_dialog.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\browser_setting.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\browser_setting.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_tabbar.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\local_filelist_row.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\local_filelist_row.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dronecam_view.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\dronecam_view.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\browser.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\browser.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\function_list.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\function_list.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_dialog.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_media.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_media.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\filelist_row.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\filelist_row.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\camera_control.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\camera_control.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\splash.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\camera_settings.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\camera_settings.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\local_browser.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\local_browser.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_tab.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\player.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\bundles\\debug\\res\\layout\\player.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    }
+]

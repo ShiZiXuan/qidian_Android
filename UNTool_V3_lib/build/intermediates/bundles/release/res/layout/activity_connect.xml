@@ -1,0 +1,57 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <RelativeLayout 
+        android:id="@+id/connect_titlebar"
+    	android:layout_width="match_parent"
+    	android:layout_height="48dp"
+    	android:layout_alignParentTop="true"
+        >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            >
+            
+            <Button 
+            	android:id="@+id/cnt_btnwifi"
+            	android:layout_width="102dp"
+            	android:layout_height="30dp"
+            	android:gravity="center"
+           	    android:layout_gravity="center"
+           	    android:text="@string/cnt_wifi"
+           	    android:textColor="@color/main_green"
+           	    android:textSize="18sp"
+            />
+        
+       	    <Button 
+            	android:id="@+id/cnt_btnap"
+            	android:layout_width="102dp"
+            	android:layout_height="30dp"
+            	android:gravity="center"
+           	    android:layout_gravity="center"
+           	    android:text="@string/cnt_ap"
+           	    android:textColor="@color/main_green"
+           	    android:textSize="18sp"
+            />
+       	    
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+    
+    <com.softwinner.un.tool.activity.UNNoSlideViewPager
+        android:layout_below="@+id/connect_titlebar"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+    
+
+</RelativeLayout>

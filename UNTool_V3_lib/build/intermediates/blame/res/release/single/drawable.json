@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_seek_ball.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_seek_ball.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_bottom_type.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_bottom_type.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\file_top_rightbtn_selector.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\file_top_rightbtn_selector.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_ar_16_9.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_ar_16_9.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\green_red_text_color.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\green_red_text_color.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\layer_seek_progress.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\layer_seek_progress.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_ar_adjust_video.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_ar_adjust_video.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_selected_border.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_selected_border.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_send_danmaku_bg.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_send_danmaku_bg.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_small_textsize.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_small_textsize.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\round_conner_4_bg.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\round_conner_4_bg.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\transition_item_background.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\transition_item_background.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_share_left.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_share_left.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\password.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\password.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\file_top_leftbtn_selector.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\file_top_leftbtn_selector.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\check_selector.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\check_selector.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_fullscreen.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_fullscreen.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\find_car.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\find_car.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_media_quality_text.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_media_quality_text.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_ar_4_3.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_ar_4_3.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_item_background.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_item_background.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_medium_textsize.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_medium_textsize.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_ar_adjust_screen.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_ar_adjust_screen.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_top_type.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_top_type.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\toast_background.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\toast_background.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_player_lock_bg.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_player_lock_bg.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_video_bg.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_video_bg.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_color.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_color.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_share_right.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_share_right.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_control.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_control.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_player_lock.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_player_lock.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_play.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_play.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_media_quality_border.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_media_quality_border.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\progress_horizontal.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\progress_horizontal.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\layer_battery_progress.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\layer_battery_progress.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\sel_btn_danmaku_input_options_rl_type.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\sel_btn_danmaku_input_options_rl_type.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\cnt_top_btn_color_selector.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\cnt_top_btn_color_selector.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\button_background.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_dialog_border.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\drawable\\shape_dialog_border.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    }
+]

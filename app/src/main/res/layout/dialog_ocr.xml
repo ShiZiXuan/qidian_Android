@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ocr_dialog_bg">
+
+    <TextView
+        android:id="@+id/warning_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/lingdang"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="我们将验证证件真伪，如有错误，请重新上传"
+        android:textColor="#e9a13a"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/first_page_result_cl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warning_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:id="@+id/name_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/name_et"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/name_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:text="高阳"
+            app:layout_constraintBottom_toBottomOf="@+id/name_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/name_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/name_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/id_card_number_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="身份证号码"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/id_card_number_tv"
+            app:layout_constraintTop_toBottomOf="@+id/name_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/id_card_number_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            app:layout_constraintBottom_toBottomOf="@+id/id_card_number_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/id_card_number_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_card_number_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/id_card_date_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="有效期"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/id_card_date_tv"
+            app:layout_constraintTop_toBottomOf="@+id/id_card_number_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/id_card_date_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456-123456"
+            app:layout_constraintBottom_toBottomOf="@+id/id_card_date_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/id_card_date_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_card_date_label_tv"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/bank_card_number_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="银行卡号码"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/bank_card_number_tv"
+            app:layout_constraintTop_toBottomOf="@+id/id_card_date_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/bank_card_number_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456-123456"
+            app:layout_constraintBottom_toBottomOf="@+id/bank_card_number_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/bank_card_number_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bank_card_number_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/bank_card_type_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="银行卡类型"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/bank_card_type_tv"
+            app:layout_constraintTop_toBottomOf="@+id/bank_card_number_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/bank_card_type_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="储蓄卡"
+            app:layout_constraintBottom_toBottomOf="@+id/bank_card_type_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/bank_card_type_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bank_card_type_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/bank_card_name_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="银行名称"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/bank_card_name_tv"
+            app:layout_constraintTop_toBottomOf="@+id/bank_card_type_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/bank_card_name_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="光大银行"
+            app:layout_constraintBottom_toBottomOf="@+id/bank_card_name_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/bank_card_name_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bank_card_name_label_tv"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/id_card_address_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="身份证地址"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/id_card_address_tv"
+            app:layout_constraintTop_toBottomOf="@+id/bank_card_name_label_tv"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/id_card_address_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456-123456"
+            app:layout_constraintBottom_toBottomOf="@+id/id_card_address_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/id_card_address_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_card_address_label_tv"
+            android:cursorVisible="false"
+            />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/bank_card_phone_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="银行预留手机"
+            android:visibility="gone"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/bank_card_phone_tv"
+            app:layout_constraintTop_toBottomOf="@+id/bank_card_name_label_tv" />
+
+        <TextView
+            android:id="@+id/bank_card_phone_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/bank_card_phone_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/bank_card_phone_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bank_card_phone_label_tv" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/second_page_result_cl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/ez20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_page_result_cl">
+
+        <TextView
+            android:id="@+id/car_card_number_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="驾驶证号"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/car_card_number_tv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/car_card_number_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="高阳"
+            app:layout_constraintBottom_toBottomOf="@+id/car_card_number_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/car_card_number_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/car_card_number_label_tv" />
+
+        <TextView
+            android:id="@+id/car_distinguish_code_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="汽车识别号"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/car_distinguish_code_tv"
+            app:layout_constraintTop_toBottomOf="@+id/car_card_number_label_tv" />
+
+        <TextView
+            android:id="@+id/car_distinguish_code_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            app:layout_constraintBottom_toBottomOf="@+id/car_distinguish_code_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/car_distinguish_code_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/car_distinguish_code_label_tv" />
+
+        <TextView
+            android:id="@+id/car_engine_number_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="发动机号"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/car_engine_number_tv"
+            app:layout_constraintTop_toBottomOf="@+id/car_distinguish_code_label_tv" />
+
+        <TextView
+            android:id="@+id/car_engine_number_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            app:layout_constraintBottom_toBottomOf="@+id/car_engine_number_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/car_engine_number_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/car_engine_number_label_tv" />
+
+        <TextView
+            android:id="@+id/car_travel_create_time_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="时间"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/car_travel_create_time_tv"
+            app:layout_constraintTop_toBottomOf="@+id/car_engine_number_label_tv" />
+
+        <TextView
+            android:id="@+id/car_travel_create_time_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            app:layout_constraintBottom_toBottomOf="@+id/car_travel_create_time_label_tv"
+            app:layout_constraintHorizontal_weight="9"
+            app:layout_constraintLeft_toRightOf="@+id/car_travel_create_time_label_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/car_travel_create_time_label_tv" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:background="#00cc66"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+     android:layout_marginTop="@dimen/ez10dp"
+        app:layout_constraintTop_toBottomOf="@+id/second_page_result_cl"
+        />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        android:layout_marginTop="@dimen/ez15dp"
+        android:layout_marginBottom="@dimen/ez10dp"
+        >
+        <Button
+            android:id="@+id/remake_bt"
+            android:layout_width="@dimen/ez70dp"
+            android:layout_height="@dimen/ez35dp"
+
+            android:textColor="@color/white"
+            android:background="@drawable/ocr_dialog_btn_bg1"
+            android:text="修改"
+            />
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="@dimen/ez70dp"
+        android:layout_height="@dimen/ez35dp"
+        android:layout_marginLeft="@dimen/ez2dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ocr_dialog_btn_bg"
+        android:text="提交"
+         />
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ez20dp"
+    app:layout_constraintTop_toBottomOf="@+id/ll"
+    android:background="#fff"
+    />
+</android.support.constraint.ConstraintLayout>

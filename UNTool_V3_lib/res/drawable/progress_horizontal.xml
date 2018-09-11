@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <stroke
+                android:width="1dp"
+                android:color="#F00" />
+            <corners
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp" />
+        </shape>
+    </item>
+    <!-- 第二进度条样式，用不怎么到直接设置成了和背景色一样的颜色，隐藏起来 -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <stroke
+                    android:width="1dp"
+                    android:color="#F00" />
+                <corners
+                    android:bottomLeftRadius="20dp"
+                    android:bottomRightRadius="20dp"
+                    android:topLeftRadius="20dp"
+                    android:topRightRadius="20dp" />
+            </shape>
+        </clip>
+    </item>
+    <!-- 第一进度条样式 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#F00" />
+                <corners
+                    android:bottomLeftRadius="20dp"
+                    android:bottomRightRadius="20dp"
+                    android:topLeftRadius="20dp"
+                    android:topRightRadius="20dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/aaa"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/ez80dp"
+            android:layout_height="@dimen/ez80dp"
+            android:src="@drawable/etcshebei"
+            android:layout_margin="@dimen/ez15dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:layout_marginTop="@dimen/ez15dp"
+            >
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高速通行ETC设备"
+            android:textSize="16sp"
+            android:textColor="#000"
+
+            />
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-07-08 09:55:55"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:id="@+id/money_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="118元"
+                android:layout_marginTop="@dimen/ez13dp"
+                android:textSize="16sp"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_dotted_line"
+        android:layout_marginTop="@dimen/ez3dp"
+        android:layerType="software"
+        />
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="订单号:11111111111111"
+        android:layout_marginLeft="@dimen/ez15dp"
+        android:layout_marginBottom="@dimen/ez5dp"
+        />
+</LinearLayout>

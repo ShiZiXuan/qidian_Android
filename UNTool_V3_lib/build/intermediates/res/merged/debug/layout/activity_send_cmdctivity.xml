@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dip"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <EditText
+        android:id="@+id/cmd"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:lines="5"
+        android:hint="please enter your cmd!"
+        android:layout_alignParentTop="true"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/cmd"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dip"
+        >
+        <Button 
+	        android:id="@+id/clearcmd"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="clear cmd"
+	        android:layout_weight="1"
+	        />
+        
+        <Button 
+	        android:id="@+id/sendcmd"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="send cmd"
+	        android:layout_weight="1"
+	        />
+        
+        <Button 
+	        android:id="@+id/clearlist"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="clear lis"
+	        android:layout_weight="1"
+	        />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/returnlist" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btns"
+        android:layout_marginTop="5dip"
+        />
+
+</RelativeLayout>

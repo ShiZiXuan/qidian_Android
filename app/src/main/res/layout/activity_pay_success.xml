@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay_success"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.uautogo.qidian.activity.PaySuccessActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/pay_cancel_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pass_dialog_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/ez20dp"
+                       />
+    </RelativeLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gv_error"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez350dp"
+
+        android:src="@drawable/payok_bac"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="恭喜你获得2个车克"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/ez25dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/toCKEDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击查看详情"
+        android:textColor="#000"
+
+        android:layout_marginTop="@dimen/ez10dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

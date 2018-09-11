@@ -1,0 +1,42 @@
+10
+
+dir
+0
+http://svn-sw/svn/SmartCamera/DSC_APP/branches/Car_DV.android.gradle/WiFiCarDV/app/src/main/assets
+http://svn-sw/svn/SmartCamera
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f3f50b47-209f-e511-ba83-00e081d2039e
+
+take_photo.mp3
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

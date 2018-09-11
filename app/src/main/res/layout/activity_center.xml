@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#f3f5f7"
+                android:gravity="center_horizontal"
+               >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/center_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_theme">
+
+
+
+        <TextView
+            android:id="@+id/center_top_bar_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/login_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/gray"/>
+
+    <RelativeLayout
+        android:id="@+id/center_info_view"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+
+        android:background="@drawable/wodebeijing">
+
+        <com.uautogo.qidian.view.EaseImageView
+            android:id="@+id/center_head_iv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wodetouxiang"
+            app:ease_shape_type="round"/>
+
+        <TextView
+            android:id="@+id/center_nike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/center_head_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="1234567890"
+            android:textColor="#000"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_check_update"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/ez8dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="@dimen/ez25dp"
+        android:background="@drawable/tupiana"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ez8dp"
+            android:src="@drawable/wodedingdan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:text="我的订单"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_arrow"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_clear_info"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="@dimen/ez12dp"
+        android:background="@drawable/tupiana"
+        android:layout_marginLeft="@dimen/ez8dp"
+        android:layout_marginRight="@dimen/ez8dp"
+     >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ez8dp"
+            android:src="@drawable/wodecheliang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:text="我的车辆"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_arrow"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/view_about"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_car_cache"
+        android:layout_marginTop="@dimen/ez12dp"
+        android:background="@drawable/tupiana"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:layout_marginLeft="@dimen/ez8dp"
+       >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ez8dp"
+            android:src="@drawable/guanyuwomen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:text="关于我们"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_arrow"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_car_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_clear_info"
+        android:layout_marginTop="@dimen/ez12dp"
+        android:background="@drawable/tupiana"
+        android:layout_marginLeft="@dimen/ez8dp"
+        android:layout_marginRight="@dimen/ez8dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ez8dp"
+            android:src="@drawable/wodeqingchu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:text="清除缓存"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_arrow"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:layout_marginLeft="@dimen/ez8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/tupiana">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退出登录"
+            android:textColor="@color/red_confirm"
+            android:textSize="16sp"/>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

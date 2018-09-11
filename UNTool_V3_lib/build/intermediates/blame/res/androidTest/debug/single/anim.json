@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_zoom_out.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\anim\\dialog_zoom_out.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_zoom_in.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\anim\\dialog_zoom_in.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

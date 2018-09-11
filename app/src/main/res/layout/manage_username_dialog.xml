@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_username_bac"
+    android:layout_marginLeft="@dimen/ez20dp"
+    android:layout_marginRight="@dimen/ez20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改昵称"
+            android:layout_margin="@dimen/ez10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+<EditText
+    android:id="@+id/edit_dialog_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/ez30dp"
+    android:layout_marginRight="@dimen/ez30dp"
+    android:layout_marginTop="@dimen/ez20dp"
+    android:layout_marginBottom="@dimen/ez20dp"
+    android:background="@drawable/shape_et"
+    android:hint="请输入新的昵称"
+    android:padding="@dimen/ez10dp"
+    android:focusableInTouchMode="true"
+    android:textCursorDrawable="@null"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/edit_dialog_username_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="确定"
+        android:background="#eee"
+            android:textColor="#000"
+        />
+        <Button
+            android:id="@+id/edit_dialog_username_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:background="#fff"
+            android:textColor="#000"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

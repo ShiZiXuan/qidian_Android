@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\keyboard_back.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-xxhdpi\\keyboard_back.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\ic_launcher_round.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\keyboard_delete.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-xxhdpi\\keyboard_delete.png"
+    }
+]

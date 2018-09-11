@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+
+    <RadioGroup
+        android:id="@+id/home_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_theme"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+
+        <RadioButton
+            android:id="@+id/home_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="首页"
+            android:drawableTop="@drawable/home_home_check"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/home_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="奖励"
+            android:drawableTop="@drawable/home_share_check"
+            android:textColor="#fff" />
+
+
+        <RadioButton
+            android:id="@+id/home_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="车克"
+            android:drawableTop="@drawable/home_cke_check"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/home_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="我的"
+            android:drawableTop="@drawable/home_my_check"
+            android:textColor="#fff" />
+    </RadioGroup>
+</LinearLayout>

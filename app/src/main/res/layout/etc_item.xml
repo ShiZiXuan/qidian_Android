@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/ez5dp"
+      android:layout_marginTop="@dimen/ez8dp"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记录仪ID:"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/ez24dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11111111"
+            android:layout_marginTop="@dimen/ez24dp"
+            android:textColor="@color/black"
+            android:paddingLeft="@dimen/ez8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

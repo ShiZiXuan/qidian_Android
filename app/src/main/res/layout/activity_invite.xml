@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_invite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/share_bac"
+    tools:context="com.uautogo.qidian.activity.InviteActivity">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez40dp"
+        android:background="@color/color_theme"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享奖励"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/share_up"
+        android:layout_below="@id/rl"
+        android:scaleType="centerCrop"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/ez20dp"
+    android:layout_marginRight="@dimen/ez20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/ez20dp"
+
+    android:layout_below="@id/iv"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_invite_up"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/ez10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您已成功获得"
+                android:textColor="#000"
+                android:layout_marginTop="@dimen/ez5dp"
+                />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:layout_gravity="center"
+
+               >
+               <TextView
+                   android:id="@+id/invite_money"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="30"
+                   android:textColor="#f00"
+                   android:textSize="32sp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="元"
+                   android:textColor="#000"
+                   />
+           </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/ez3dp"
+        android:background="@drawable/shape_invite_down"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+
+        >
+    <TextView
+        android:id="@+id/invite_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已邀请1人"
+        android:layout_margin="@dimen/ez10dp"
+        />
+        <TextView
+            android:id="@+id/toShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续邀请"
+            android:textColor="#f00"
+            android:layout_margin="@dimen/ez10dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+<ListView
+    android:id="@+id/invite_lv"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ez200dp"
+
+    />
+</LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

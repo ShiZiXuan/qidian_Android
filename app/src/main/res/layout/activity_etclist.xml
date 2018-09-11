@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/illegal_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/color_theme">
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/back_white" />
+
+        <TextView
+            android:id="@+id/illegal_top_bar_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ETC账单明细"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/etclist_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/center_top_bar"
+        android:background="@color/gray" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ez40dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/etc_money_bac" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/etc_list_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="待支付"
+                android:textColor="#fff" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:layout_gravity="center_horizontal"
+                >
+                <TextView
+                    android:id="@+id/etclist_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="140"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="@dimen/ez5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="次"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/ectlist_noMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="本月共计使用8次"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/etc_toWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="查看扣费规则"
+        android:textColor="#0099ff" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/etclist_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ez20dp"
+        >
+        <android.support.design.widget.TabLayout
+            android:id="@+id/etclist_tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            style="@style/Widget.Design.TabLayout"
+            />
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/empty_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="暂无ETC记录"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etclist_iv"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/ez100dp"
+        android:src="@drawable/car_none"
+        android:layout_gravity="center_horizontal"
+
+        />
+</RelativeLayout>

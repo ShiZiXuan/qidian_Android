@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\Keyboard\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\qidian_Android\\Keyboard\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

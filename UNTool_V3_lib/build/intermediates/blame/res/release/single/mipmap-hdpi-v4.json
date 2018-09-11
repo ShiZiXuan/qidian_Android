@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_fullscreen.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_fullscreen.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_media_quality_super.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_media_quality_super.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_fast_rewind.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_fast_rewind.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_battery.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_battery.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_fullscreen_exit.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_fullscreen_exit.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_cancel_danmaku.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_cancel_danmaku.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_play_circle.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_play_circle.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_video_play.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_video_play.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_media_quality_smooth.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_media_quality_smooth.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_volume_on.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_volume_on.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_danmaku_open.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_danmaku_open.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_fast_forward.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_fast_forward.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_media_quality_bd.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_media_quality_bd.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_volume_off.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_volume_off.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_cancel_skip.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_cancel_skip.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_send_danmaku.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_send_danmaku.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_battery_charging.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_battery_charging.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_video_pause.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_video_pause.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_brightness.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_brightness.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_media_quality_high.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_media_quality_high.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_player_lock.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_player_lock.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_battery_red.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_battery_red.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_player_unlock.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_player_unlock.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_danmaku_closed.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_danmaku_closed.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_media_quality_medium.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_media_quality_medium.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_video_screenshot.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_video_screenshot.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi-v4\\ic_return_back.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-hdpi-v4\\ic_return_back.png"
+    }
+]

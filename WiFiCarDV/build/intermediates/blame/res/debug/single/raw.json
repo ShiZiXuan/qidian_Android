@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\debug\\raw\\pirbuzzer.wav",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\raw\\pirbuzzer.wav"
+    },
+    {
+        "merged": "F:\\qidian_Android\\WiFiCarDV\\build\\intermediates\\res\\merged\\debug\\raw\\buzzer.wav",
+        "source": "F:\\qidian_Android\\WiFiCarDV\\src\\main\\res\\raw\\buzzer.wav"
+    }
+]

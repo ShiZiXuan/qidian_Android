@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\qidian_Android\WiFiCarDV\src\main\assets"><file name="take_photo.mp3" path="F:\qidian_Android\WiFiCarDV\src\main\assets\take_photo.mp3"/></source><source path="F:\qidian_Android\WiFiCarDV\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="F:\qidian_Android\WiFiCarDV\src\release\assets"/></dataSet></merger>

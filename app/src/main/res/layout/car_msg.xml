@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ez10dp"
+            android:orientation="horizontal">
+            
+            <View
+                android:layout_width="@dimen/ez5dp"
+                android:layout_height="@dimen/ez13dp"
+                android:background="#0099ff"
+                android:layout_marginLeft="@dimen/ez10dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez3dp"
+                android:text="示例"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:src="@drawable/tanhao"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:text="请按实例完成拍摄驾驶证,确保文字清晰"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/ez5dp">
+
+            <ImageView
+                android:layout_width="@dimen/ez100dp"
+                android:layout_height="@dimen/ez80dp"
+                android:layout_weight="1"
+                android:src="@drawable/xzheng"/>
+
+            <ImageView
+                android:layout_width="@dimen/ez100dp"
+                android:layout_height="@dimen/ez80dp"
+                android:layout_weight="1"
+
+                android:src="@drawable/xfan"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez3dp"
+            android:background="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ez10dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/ez5dp"
+                    android:layout_height="@dimen/ez13dp"
+                    android:background="#0099ff"
+                    android:layout_marginTop="@dimen/ez5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ez3dp"
+                    android:text="示例"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/ez5dp"
+                    android:src="@drawable/tanhao"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/ez5dp"
+                    android:text="请按实例完成拍摄车头照,确保车牌号清晰"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="@dimen/ez150dp"
+                android:layout_height="@dimen/ez80dp"
+                android:layout_marginTop="@dimen/ez8dp"
+                android:src="@drawable/tou"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez3dp"
+            android:layout_marginTop="@dimen/ez5dp"
+            android:background="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="@dimen/ez5dp"
+        android:layout_height="@dimen/ez13dp"
+        android:background="#0099ff"
+
+        android:layout_marginTop="@dimen/ez13dp"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:layout_marginTop="@dimen/ez8dp"
+                android:text="请上传行驶证的正反面"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+</LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/ez5dp">
+
+            <RelativeLayout
+                android:id="@+id/xingshizheng_zheng_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/upload3_iv"
+                    android:layout_width="@dimen/ez120dp"
+                    android:layout_height="@dimen/ez80dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/xiangji"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/ez10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="行驶证印章面"
+                    android:textColor="#000"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/xingshizheng_copy_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/upload4_iv"
+                    android:layout_width="@dimen/ez120dp"
+                    android:layout_height="@dimen/ez80dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/xiangji"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/ez10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="行驶证条码面"
+                    android:textColor="#000"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez3dp"
+            android:background="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="@dimen/ez5dp"
+                    android:layout_height="@dimen/ez13dp"
+                    android:background="#0099ff"
+
+                    android:layout_marginTop="@dimen/ez13dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ez8dp"
+                    android:layout_marginTop="@dimen/ez8dp"
+                    android:text="请上传车头照"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/hezhao_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez13dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/upload7_iv"
+                    android:layout_width="@dimen/ez120dp"
+                    android:layout_height="@dimen/ez80dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/xiangji"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/ez10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="车头照片"
+                    android:textColor="#000"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ez3dp"
+            android:background="@color/gray"
+            android:layout_marginTop="@dimen/ez5dp"
+            />
+    </LinearLayout>
+</ScrollView>

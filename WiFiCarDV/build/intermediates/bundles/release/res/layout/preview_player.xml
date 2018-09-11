@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f3f5f7"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/player_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/player_surface_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF0">
+
+            <tw.com.a_i_t.IPCamViewer.VideoView.VideoViewer
+                android:id="@+id/player_surface"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/adas_calibrateline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/adas_califront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/label_find_camera"
+            android:src="@drawable/adas_calibrate"/>
+
+        <ImageView
+            android:id="@+id/adas_caliback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="100dp"
+            android:contentDescription="@string/label_find_camera"
+            android:src="@drawable/adas_calibrateb"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/streambuttonlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/findCameraButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/label_find_camera"/>
+
+            <Button
+                android:id="@+id/cameraRecordButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/label_camera_record"/>
+
+            <!--<Button-->
+            <!--android:id="@+id/cameraSnapshotButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="4"-->
+            <!--android:text="@string/label_camera_snapshot" />-->
+
+            <Button
+                android:id="@+id/cameraSwitchButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/label_camera_switchtofront"/>
+
+            <Button
+                android:id="@+id/cameraDownloadhButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/label_dowload_event"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TimeStampLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffff00"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/adas_calibratlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/adas_calibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/AdasCalibratebutton"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/videos_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bshipin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/videoed_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:text="视频列表"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ashipin"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+
+        <LinearLayout
+            android:id="@+id/photos_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bshipin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/photoed_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:text="照片列表"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/bphoto"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videos_tv"
+       android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/ba"
+        >
+
+        <Button
+            android:id="@+id/cameraSnapshotButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sky"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

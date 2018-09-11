@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/blue_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="@dimen/ez5dp"
+        android:paddingBottom="@dimen/ez5dp"
+        android:background="#ffff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="蓝色" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/yellow_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="@dimen/ez5dp"
+        android:paddingBottom="@dimen/ez5dp"
+        android:background="#ffff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="黄色" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/green_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="@dimen/ez5dp"
+        android:paddingBottom="@dimen/ez5dp"
+        android:background="#ffff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="绿色" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/white_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="@dimen/ez5dp"
+        android:paddingBottom="@dimen/ez5dp"
+        android:background="#ffff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="白色" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:id="@+id/black_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="@dimen/ez5dp"
+        android:paddingBottom="@dimen/ez5dp"
+        android:background="#ffff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="黑色" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:background="#ffff"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="取消" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/etc_list_lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="@dimen/ez3dp"
+        />
+    <LinearLayout
+        android:id="@+id/finish_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wuya"
+
+            android:layout_marginTop="@dimen/ez70dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对不起!您还没有账单信息!"
+            android:textColor="#999"
+            android:layout_marginTop="@dimen/ez30dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

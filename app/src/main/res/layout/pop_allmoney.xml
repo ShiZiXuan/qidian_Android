@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9000"
+    android:gravity="center_vertical|center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez150dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_popallmoney"
+        android:layout_marginLeft="@dimen/ez20dp"
+        android:layout_marginRight="@dimen/ez20dp"
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/ez35dp"
+    android:text="您确定要全部提现吗?"
+    android:textSize="18sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/ez40dp"
+    android:textColor="#000"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ez40dp"
+            >
+            <TextView
+                android:id="@+id/pop_makeMoney"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="全部提现"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/pop_cancelMoney"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="取消"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

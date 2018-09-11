@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31bdf7</color>
+    <color name="colorPrimaryDark">#31bdf7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#88c3c3c3</color>
+    <color name="weather_color">#f3f4fa</color>
+    <color name="weather_yellow">#fbde1e</color>
+    <!-- gray2 -->
+    <color name="colorGray2">#DCDCDC</color>
+    <color name="color_blue">#26A5FF</color>
+    <color name="color_theme">#31bdf8</color>
+    <color name="transparent">#00000000</color>
+</resources>

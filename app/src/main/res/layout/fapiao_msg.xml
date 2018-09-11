@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否开票"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <View
+            android:layout_width="@dimen/ez0dp"
+            android:layout_height="@dimen/ez0dp"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:id="@+id/kapiao_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez25dp"
+            android:layout_marginRight="@dimen/ez10dp"
+            android:text="是"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez1dp"
+        android:layout_marginLeft="@dimen/ez5dp"
+        android:layout_marginRight="@dimen/ez5dp"
+        android:background="@color/gray_btn_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发票类型"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <CheckBox
+            android:id="@+id/style_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez25dp"
+            android:background="@null"
+            android:text="个人"
+            android:textSize="13sp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:background="@null"
+            android:text="企业"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!--<View-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"/>-->
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez55dp"
+            android:background="@null"
+            android:text="电子发票"
+            android:textSize="13sp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:background="@null"
+            android:text="纸质发票"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez1dp"
+        android:layout_marginLeft="@dimen/ez5dp"
+        android:layout_marginRight="@dimen/ez5dp"
+        android:background="@color/gray_btn_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发票抬头"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez25dp"
+            android:background="@null"
+            android:text="个人"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez1dp"
+        android:layout_marginLeft="@dimen/ez5dp"
+        android:layout_marginRight="@dimen/ez5dp"
+        android:background="@color/gray_btn_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发票类型"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez25dp"
+            android:background="@null"
+            android:text="增值税普通发票"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez1dp"
+        android:layout_marginLeft="@dimen/ez5dp"
+        android:layout_marginRight="@dimen/ez5dp"
+        android:background="@color/gray_btn_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez25dp"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子邮箱"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez25dp"
+            android:background="@null"
+            android:text="1192842554@qq.com"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez1dp"
+        android:layout_marginLeft="@dimen/ez5dp"
+        android:layout_marginRight="@dimen/ez5dp"
+        android:background="@color/gray_btn_bg_color"/>
+
+
+</LinearLayout>
+

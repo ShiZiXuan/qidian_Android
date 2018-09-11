@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/ez15dp"
+    >
+    <TextView
+        android:id="@+id/detail_item_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车克提现"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/detail_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-08-07 19:01:23"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/ez5dp"
+        />
+</LinearLayout>
+    <TextView
+        android:id="@+id/detail_item_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-20"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/ez15dp"
+        android:layout_marginRight="@dimen/ez10dp"
+        android:textSize="18sp"
+        />
+</RelativeLayout>

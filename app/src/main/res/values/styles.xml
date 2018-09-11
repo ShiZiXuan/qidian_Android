@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="edit_AlertDialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item> <!--是否启用标题栏-->
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item> <!--是否使用背景半透明-->
+    </style>
+
+    <!-- 横向权重 -->
+    <style name="view_weight_width">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 灰色横线 -->
+    <style name="view_gray_lines_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorGray2</item>
+    </style>
+
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/exit</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DialogActivity">
+        <!--设置dialog的背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--设置窗口内容不覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+<!--pop动画-->
+    <style name="take_photo_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <!--tab背景-->
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_bac</item>
+
+
+    </style>
+    /**
+    微信登录
+    */
+    <style name="wx_login_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item><!--退出动画-->
+        <item name="android:activityOpenExitAnimation">@anim/activity_close_exit</item>
+        <!--<item name="android:background">@color/color_transparent_9000</item>-->
+    </style>
+
+</resources>

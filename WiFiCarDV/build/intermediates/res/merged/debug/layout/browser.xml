@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e3e3e3"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/center_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/center_top_bar_left_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+          />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="记录仪中的视频"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/browserTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/label_file_browser"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/browserList"
+        android:layout_width="match_parent"
+        android:layout_below="@id/center_top_bar"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:numColumns="2"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/buttonArea"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/browserDownloadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_save"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/browserDeleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_delete"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/browserOpenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_open"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/browserCamswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_open"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/browserfolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_open"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

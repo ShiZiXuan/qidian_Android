@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e3e3e3">
+
+    <RelativeLayout
+        android:id="@+id/parentview"
+        android:layout_width="160dip"
+        android:layout_height="90dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/title_video"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/parentview"
+        android:background="@color/gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="文件列表"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_video"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/file_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"/>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/wifi"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="正在连接设备..."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="请确保已连接到设备Wifi"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/storage_pb"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/storage_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/storage_pb"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/used_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="已用 : 0GB"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/total_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="总共 : 0GB"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/control_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/storage_linear"
+        android:layout_below="@+id/title_video"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/camera_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:src="@drawable/bbb"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/format_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="格式化"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"/>
+
+            <Button
+                android:id="@+id/password_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="修改密码"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/video_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="视频列表"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/video_number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/photo_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="照片列表"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/photo_number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uautogo.qidian.activity.AgreementActivity">
+
+    <RelativeLayout
+        android:id="@+id/illegal_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/color_theme">
+
+        <ImageView
+            android:id="@+id/illegal_top_bar_left_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/back_white"/>
+
+        <TextView
+            android:id="@+id/illegal_top_bar_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ETC协议"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/illegal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/illegal_top_bar"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:text="登录后高速纵横将获得一下权限:"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="  .获取你的公开信息(昵称.头像.性别等)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="  .使用身份信息(姓名.手机号.证件号码)办理业务"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="  .使用您的身份证信息办理业务(证件图片)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:singleLine="true"
+        android:text="  .使用您的行驶证信息办理业务(车主姓名,品牌,车牌,车架号,发动机号,证件图片,注册日期,发证日期))"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ez10dp"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:text="  .使用您的驾驶证信息办理业务(准驾车型)"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/agreement_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez10dp"
+            android:background="@drawable/check_selector"
+            android:button="@null"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez5dp"
+            android:text="同意"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ez3dp"
+            android:text="服务协议"
+            android:textColor="#23b7f7"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ez100dp"
+        android:background="@drawable/login_shape"
+        android:text="确认授权"
+        android:textColor="@color/white"/>
+</LinearLayout>

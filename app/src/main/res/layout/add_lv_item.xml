@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/ez10dp"
+    >
+    <TextView
+        android:id="@+id/add_lv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="王三丰"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/add_lv_add"
+        android:layout_width="@dimen/ez180dp"
+        android:layout_height="wrap_content"
+        android:text="北京市北京市海淀区魏公村理工科技大厦1505"
+        android:layout_marginTop="@dimen/ez15dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/ez10dp"
+        >
+        <TextView
+            android:id="@+id/add_lv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12345678900"
+            android:layout_marginTop="@dimen/ez10dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            />
+        <Button
+            android:id="@+id/add_lv_remakeAdd"
+            android:layout_width="@dimen/ez50dp"
+            android:layout_height="@dimen/ez25dp"
+            android:text="修改"
+            android:background="@drawable/shape"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            android:layout_marginTop="@dimen/ez13dp"
+            android:layout_marginLeft="@dimen/ez20dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

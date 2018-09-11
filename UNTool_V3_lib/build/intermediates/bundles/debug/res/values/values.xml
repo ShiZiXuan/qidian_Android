@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimary">#31bdf7</color>
+    <color name="colorPrimaryDark">#31bdf7</color>
+    <color name="gray">#88c3c3c3</color>
+    <color name="main_green">#1bb95e</color>
+    <color name="red_confirm">#FF3B30</color>
+    <color name="transparent">#00000000</color>
+    <color name="weather_color">#f3f4fa</color>
+    <color name="weather_yellow">#fbde1e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_dialog_bg">#F4F4F6</color>
+    <dimen name="activity_horizontal_margin">100dp</dimen>
+    <dimen name="activity_vertical_margin">100dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">智慧ETC</string>
+    <string name="cnt_ap">AP</string>
+    <string name="cnt_wifi">WiFi</string>
+    <string name="download_complete">下载完成</string>
+    <string name="download_failed">下载失败</string>
+    <string name="download_file">下载%s</string>
+    <string name="download_start">开始下载%s</string>
+    <string name="download_working">下载器很忙,请稍后再试!</string>
+    <string name="downloading">下载中…</string>
+    <string name="new_file">下载新文件</string>
+    <string name="title_activity_begin">BeginActivity</string>
+    <string name="title_activity_connect">ConntectActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_send_cmdctivity">SendCmdctivity</string>
+    <string name="title_activity_show_video">ShowVideoActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="welcome_tips">Welcome UNTool </string>
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="dialog_qrcode" parent="android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowTitleStyle">@null</item>  
+        <item name="android:windowAnimationStyle">@null</item>  
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>  
+        <item name="android:background">@color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:windowBackground">@color/transparent</item>  
+    </style>
+</resources>

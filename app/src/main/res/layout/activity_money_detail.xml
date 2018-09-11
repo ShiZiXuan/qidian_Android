@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_money_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uautogo.qidian.activity.MoneyDetailActivity">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ez40dp"
+        android:background="@color/color_theme"
+        >
+        <ImageView
+            android:id="@+id/detail_back"
+            android:layout_width="@dimen/ez20dp"
+            android:layout_height="@dimen/ez20dp"
+            android:src="@drawable/back_white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ez11dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账单明细"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/detail_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+    </ListView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/money_iv"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/ez50dp"
+        android:src="@drawable/car_none"
+        android:layout_gravity="center_horizontal"
+
+        />
+</LinearLayout>

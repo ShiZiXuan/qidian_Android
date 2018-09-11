@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/call_bg"
+        android:paddingBottom="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/call_label_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="现在拨打电话？"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/call_cancel_bg"
+            android:text="取消"
+            android:textColor="@color/color_blue"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/ok_btn"
+            app:layout_constraintTop_toBottomOf="@id/call_label_tv" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/call_ok_bg"
+            android:text="确认"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toRightOf="@id/cancel_btn"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_label_tv" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

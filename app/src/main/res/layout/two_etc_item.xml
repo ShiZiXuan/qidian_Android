@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/ez5dp"
+    android:paddingBottom="@dimen/ez5dp"
+
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/ez20dp"
+    >
+    <TextView
+        android:id="@+id/etc_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETC高速通行付费"
+        android:textSize="15sp"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/etc_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-07-05 18:32:25"
+        android:layout_marginTop="@dimen/ez5dp"
+        android:textColor="#000"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/ez10dp"
+        android:layout_marginRight="@dimen/ez20dp"
+        >
+        <TextView
+            android:id="@+id/etc_item_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80元"
+            android:textColor="@color/red_confirm"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去付款 >"
+            android:textColor="#0099ff"
+            android:layout_marginTop="@dimen/ez5dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

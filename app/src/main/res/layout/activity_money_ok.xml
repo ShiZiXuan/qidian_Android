@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/illegal_top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/color_theme">
+
+            <ImageView
+                android:id="@+id/back_iv"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:src="@drawable/back_white"/>
+
+            <TextView
+                android:id="@+id/illegal_top_bar_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="车克提现状态"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/illegal_top_bar"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:src="@drawable/faqi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez10dp"
+                android:layout_marginTop="@dimen/ez10dp"
+                android:text="发起提现"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/ez1dp"
+            android:layout_height="@dimen/ez50dp"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:background="#999999"
+            android:orientation="vertical"
+            android:layout_below="@id/ll"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/view"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:src="@drawable/faqi_ing"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ez10dp"
+                    android:layout_marginTop="@dimen/ez10dp"
+                    android:text="提现处理中"
+                    android:textColor="@color/red_confirm"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/moneyok_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ez10dp"
+                    android:layout_marginTop="@dimen/ez5dp"
+                    android:text="预计到账时间:2018-07-07 12:00前"
+                    android:textColor="#0099ff"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/ez1dp"
+            android:layout_height="@dimen/ez50dp"
+            android:layout_marginLeft="@dimen/ez20dp"
+            android:background="#999999"
+            android:orientation="vertical"
+            android:layout_below="@id/ll1"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:layout_below="@id/view1"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez5dp"
+                android:layout_marginTop="@dimen/ez5dp"
+                android:src="@drawable/faqi_ok"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ez10dp"
+                android:layout_marginTop="@dimen/ez10dp"
+                android:text="提现成功"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/makeMoney_cke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ez20dp"
+            android:text="本次提现车克:10cke"
+            android:textColor="@color/red_confirm"
+            android:textSize="20sp"
+            android:layout_below="@id/ll2"
+            />
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/ez40dp"
+            android:background="@drawable/banli"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_below="@id/makeMoney_cke"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/ez15dp"
+            >
+
+
+        <TextView
+            android:id="@+id/moneyok_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="常见问题"
+            android:textColor="#0099ff"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/ez3dp"
+            android:text="本服务由北京启点车联科技有限公司提供"
+            android:textColor="@color/black"
+            />
+        </LinearLayout>
+
+
+</RelativeLayout>

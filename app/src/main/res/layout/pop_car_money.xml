@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#9000"
+    android:gravity="bottom|center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+    <ImageView
+        android:id="@+id/pop_cancel"
+        android:layout_width="@dimen/ez20dp"
+        android:layout_height="@dimen/ez20dp"
+        android:src="@drawable/pop_cancel"
+        android:layout_margin="@dimen/ez15dp"
+        />
+    <TextView
+        android:id="@+id/pop_webTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ez10dp"
+        android:text="kasjdksdjjiwjipdwjskajdksajdklssdsa"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+<Button
+    android:id="@+id/pop_copy"
+    android:layout_width="@dimen/ez35dp"
+    android:layout_height="@dimen/ez25dp"
+    android:text="复制"
+    android:textColor="#fff"
+    android:background="@drawable/bac_pop_button"
+    android:layout_gravity="right"
+    android:layout_marginRight="@dimen/ez20dp"
+    />
+    <TextView
+        android:id="@+id/rechange_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去哪充值?如何充值?"
+        android:textColor="#0099ff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ez20dp"
+        android:layout_marginBottom="@dimen/ez70dp"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_photo_list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e3e3e3"
+              android:orientation="vertical"
+              tools:context="com.softwinner.un.tool.activity.PhotoListActivity">
+
+    <RelativeLayout
+        android:id="@+id/center_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/center_top_bar_left_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+           />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="照片"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            android:text="编辑"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            android:text="全选"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view_photo"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="0dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="删除"
+        android:id="@+id/delete_btn"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+</LinearLayout>
