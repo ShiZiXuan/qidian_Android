@@ -34,6 +34,8 @@ import org.xutils.common.Callback;
 import org.xutils.http.RequestParams;
 import org.xutils.x;
 
+import java.util.Calendar;
+
 
 /**
  * 车克提现页面
@@ -43,7 +45,7 @@ public class MakeMoneyActivity extends AppCompatActivity {
     private EditText money_et, moneyAddress;
     private TextView makeMoney_all;
     private PopupWindow mPopupWindow;
-    private TextView makeSecret;
+    private TextView makeSecret,time;
     private GridPasswordView gpvNormalTwice;
     private Button makeMoney;
     private ImageView back;
@@ -112,18 +114,6 @@ public class MakeMoneyActivity extends AppCompatActivity {
                         showPop();
                     }
                 }
-            }
-        });
-        money_et.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //输入框获取焦点
-                moneyAddress.setFocusable(true);
-                moneyAddress.setFocusableInTouchMode(true);
-                moneyAddress.requestFocus();
-                //拉起键盘
-                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                imm.showSoftInput(moneyAddress,0);
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
@@ -307,7 +297,9 @@ public class MakeMoneyActivity extends AppCompatActivity {
         cke = (TextView) findViewById(R.id.cke_makeMoney);
         money_et = (EditText) findViewById(R.id.money_et);
         money_et.setInputType(InputType.TYPE_CLASS_NUMBER);
-
+        money_et.setFocusable(true);
+        money_et.setFocusableInTouchMode(true);
+        money_et.requestFocus();
         makeMoney_all = (TextView) findViewById(R.id.makeMoney_all);
         makeMoney_all.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG); //下划线
         makeMoney_all.getPaint().setAntiAlias(true);//抗锯齿
@@ -315,7 +307,8 @@ public class MakeMoneyActivity extends AppCompatActivity {
         makeMoney = (Button) findViewById(R.id.makeMoney_ok);
         back = (ImageView) findViewById(R.id.makeMoney_back);
         moneyAddress = (EditText) findViewById(R.id.moneyAddress);
-
+        time = findViewById(R.id.makemoney_time);
+        time.setText("预计到账时间:"+getTime()+"前");
         String moneyAddress1 = SharedPreferencesUtils.getString(MakeMoneyActivity.this, "moneyAddress");
         money = SharedPreferencesUtils.getString(MakeMoneyActivity.this,"ckemoney");
         Log.e("money----->",SharedPreferencesUtils.getString(this,"ckemoney"));
@@ -378,5 +371,25 @@ public class MakeMoneyActivity extends AppCompatActivity {
     private static View getRootView(Activity context)
     {
         return ((ViewGroup) context.findViewById(android.R.id.content)).getChildAt(0);
+    }
+    private String getTime(){
+        Calendar calendar = Calendar.getInstance();
+//获取系统的日期
+//年
+        int year = calendar.get(Calendar.YEAR);
+//月
+        int month = calendar.get(Calendar.MONTH)+1;
+//日
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+//获取系统时间
+//小时
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+//分钟
+        int minute = calendar.get(Calendar.MINUTE);
+//秒
+        int second = calendar.get(Calendar.SECOND);
+
+        String time = year+"年"+month+"月"+day+"日 "+(hour+3)+":"+minute+":"+second;
+        return time;
     }
     }

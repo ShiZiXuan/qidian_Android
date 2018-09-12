@@ -121,6 +121,7 @@
             />
     </LinearLayout>
     <TextView
+        android:id="@+id/makemoney_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="预计2018年7月7日23:00前到账"

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -28,8 +29,10 @@ import com.uautogo.qidian.view.FiveTextView;
 import com.uautogo.qidian.view.MyGridview;
 import com.uautogo.qidian.widget.GlideImageLoader;
 import com.youth.banner.Banner;
+
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

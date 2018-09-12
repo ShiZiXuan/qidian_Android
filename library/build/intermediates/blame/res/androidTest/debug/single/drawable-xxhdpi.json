@@ -148,12 +148,12 @@
         "source": "F:\\qidian_Android\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "F:\\qidian_Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "F:\\qidian_Android\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "F:\\qidian_Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_list_focused_holo.9.png",
         "source": "F:\\qidian_Android\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "F:\\qidian_Android\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "F:\\qidian_Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png",

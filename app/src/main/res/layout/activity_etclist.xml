@@ -36,6 +36,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone"
+        android:layout_marginTop="@dimen/ez40dp"
         >
     <View
         android:id="@+id/line"
@@ -56,12 +57,16 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/etc_money_bac" />
+            android:src="@drawable/etc_money_bac"
+
+            />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+
+            >
             <TextView
                 android:id="@+id/etc_list_state"
                 android:layout_width="wrap_content"

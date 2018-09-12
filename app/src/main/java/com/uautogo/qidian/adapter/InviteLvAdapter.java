@@ -1,7 +1,6 @@
 package com.uautogo.qidian.adapter;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,11 +64,13 @@ public class InviteLvAdapter extends BaseAdapter {
         }else{
             holder.state.setText("办理成功");
         }
-        if(!TextUtils.isEmpty(bean.getUserAvatar())){
-             Glide.with(mContext).load(bean.getUserAvatar()).into(holder.iv);
-        }else{
-            holder.iv.setImageResource(R.drawable.share_head);
-        }
+
+
+        //if(!TextUtils.isEmpty(bean.getUserAvatar())){
+            Glide.with(mContext).load(bean.getUserAvatar()).placeholder(R.drawable.share_head).into(holder.iv);
+      //  }else{
+       //     holder.iv.setImageResource(R.drawable.share_head);
+      //  }
 
         holder.name.setText(bean.getUserName());
 

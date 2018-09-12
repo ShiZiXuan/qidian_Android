@@ -1,6 +1,7 @@
 package com.uautogo.qidian.activity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -12,7 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -397,14 +400,14 @@ public class FuelcardActivity extends AppCompatActivity {
         mPopupWindow = new PopupWindow(view1, WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
         //设置动画,就是style里创建的那个j
         mPopupWindow.setAnimationStyle(R.style.take_photo_anim);
-        //设置popupwindow的位置,这里直接放到屏幕上就行
-        mPopupWindow.showAsDropDown(view1, 0, -WindowManager.LayoutParams.MATCH_PARENT);
+
         //可以点击外部消失
         mPopupWindow.setOutsideTouchable(true);
         //设置空的背景图片(这句不加可能会出现黑背景,最好加上)
         mPopupWindow.setBackgroundDrawable(new BitmapDrawable());
 
         mPopupWindow.setFocusable(true);
+        mPopupWindow.showAtLocation(getRootView(this), Gravity.CENTER,0,0);
         pw = view1.findViewById(R.id.pswView);
         TextView forget = view1.findViewById(R.id.forgetPassword);
         forget.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG); //下划线
@@ -486,5 +489,9 @@ public class FuelcardActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         EtcService.isPaying = false;
+    }
+    private static View getRootView(Activity context)
+    {
+        return ((ViewGroup) context.findViewById(android.R.id.content)).getChildAt(0);
     }
 }

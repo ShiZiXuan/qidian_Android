@@ -30,7 +30,6 @@ public class MyApplication extends Application {
     private static MyApplication instance = null;
     private static String UM_SERECT = "593284f104e205086d001752";
 
-    //    public static SocketFactory socketFactory;
     @Override
     public void onCreate() {
         super.onCreate();

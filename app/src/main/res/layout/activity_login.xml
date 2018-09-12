@@ -81,6 +81,7 @@
                 android:padding="10dp"
                 android:paddingLeft="@dimen/ez5dp"
                 android:textColorHint="@color/gray"
+                android:textCursorDrawable="@null"
                  />
 
             <TextView
@@ -143,7 +144,9 @@
             android:layout_height="@dimen/ez50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/ez20dp"
-            android:src="@drawable/weixindengl" />
+            android:src="@drawable/weixindengl"
+
+            />
     </LinearLayout>
 
 

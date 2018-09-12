@@ -4,6 +4,7 @@
               android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:background="#fff"
     >
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gv_error"
@@ -55,16 +56,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="①:收到设备请按照包装盒内说明书激活"
+                android:textColor="#000"
+                android:layout_marginLeft="@dimen/ez5dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/ez5dp"
+                android:layout_marginLeft="@dimen/ez5dp"
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="②:"
+                    android:textColor="#000"
                     />
                 <TextView
                     android:id="@+id/sign_toWeb"
@@ -78,16 +83,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/ez5dp"
+                android:layout_marginLeft="@dimen/ez5dp"
                 >
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+
                     >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="③:如有疑问,请联系客服"
+                android:textColor="#000"
 
                 />
             <TextView
@@ -95,6 +103,7 @@
                 android:layout_height="wrap_content"
                 android:text="微信号1192842554"
                 android:layout_marginLeft="@dimen/ez10dp"
+                android:textColor="#000"
                 />
                 </LinearLayout>
                 <Button

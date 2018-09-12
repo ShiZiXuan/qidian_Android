@@ -28,4 +28,13 @@ public class ProblemActivity extends AppCompatActivity {
         webView = findViewById(R.id.webView);
         webView.loadUrl(url);
     }
+    public void onPause() {
+        super.onPause();
+        webView.onPause();
+    }
+    public void onResume() {
+        super.onResume();
+        webView.onResume();
+    }
+
 }

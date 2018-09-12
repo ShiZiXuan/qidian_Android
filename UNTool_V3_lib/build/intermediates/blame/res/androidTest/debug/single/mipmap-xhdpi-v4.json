@@ -20,12 +20,12 @@
         "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-xhdpi-v4\\ic_fullscreen.png"
     },
     {
-        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_send_danmaku.png",
-        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-xhdpi-v4\\ic_send_danmaku.png"
-    },
-    {
         "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_ar_adjust_screen.png",
         "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-xhdpi-v4\\ic_ar_adjust_screen.png"
+    },
+    {
+        "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_send_danmaku.png",
+        "source": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\exploded-aar\\com.github.Rukey7\\playerview\\unspecified\\res\\mipmap-xhdpi-v4\\ic_send_danmaku.png"
     },
     {
         "merged": "F:\\qidian_Android\\UNTool_V3_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_danmaku_input_options_rl_type.png",
